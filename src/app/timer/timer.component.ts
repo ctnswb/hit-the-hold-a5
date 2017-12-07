@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: './timer.component.html'
 })
 export class timerComponent {
-
+  time = 0.00;
 }

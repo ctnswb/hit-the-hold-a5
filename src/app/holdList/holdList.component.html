@@ -1,3 +1,9 @@
-<div ng-repeat= "hold in $ctrl.holds">
+<!-- <div ng-repeat= "hold in $ctrl.holds">
 <hold hold=hold><h5><em>hold</em> component goes here</h5></hold>
+</div> -->
+<div> Heres the holds:
+  <span *ngFor="let hold of holds">
+  {{hold.name}}
+  </span>
 </div>
+<hold></hold>
