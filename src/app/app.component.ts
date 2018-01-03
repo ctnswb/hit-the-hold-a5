@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  player: String;
+
+  onPlayerEntered(name) {
+    this.player = name;
+  }
 }

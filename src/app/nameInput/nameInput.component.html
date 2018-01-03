@@ -1,6 +1,5 @@
 <div>
-  <form>
     <h3>Enter Your Name to Play:</h3>
-    <input type="text">
-  </form>
+    <input type="text" (keyup.enter)="onEnterName()" [(ngModel)]="newPlayerName">
+  <button (click)="onEnterName()">Enter</button>
 </div>
