@@ -2,8 +2,5 @@
 <hold hold=hold><h5><em>hold</em> component goes here</h5></hold>
 </div> -->
 <div> Heres the holds:
-  <span *ngFor="let hold of holds">
-  {{hold.name}}
-  </span>
+<hold *ngFor="let hold of holds" [hold]="hold"></hold>
 </div>
-<hold></hold>
