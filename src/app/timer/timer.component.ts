@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'timer',
   templateUrl: './timer.component.html'
 })
 export class timerComponent {
-  time = 0.00;
+  @Input() seconds : Number;
+  @Input() ms : Number;
 }
