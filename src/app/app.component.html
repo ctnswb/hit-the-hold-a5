@@ -1,6 +1,6 @@
 <h1>Hit the Hold {{player}}</h1>
 <name-input (nameEntered) = "onPlayerEntered($event)"></name-input>
-<countdown></countdown>
+<countdown [count]="count" ></countdown>
 <hold-list></hold-list>
 <score-list></score-list>
 <timer></timer>

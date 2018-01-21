@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
   player: String;
+  count: Number = 3;
 
   onPlayerEntered(name) {
     this.player = name;
