@@ -10,7 +10,7 @@ import { countdownComponent } from './countdown/countdown.component';
 import { holdComponent } from './holdList/hold/hold.component';
 import { holdListComponent } from './holdList/holdList.component';
 import { nameInputComponent } from './nameInput/nameInput.component';
-import { scoreComponent } from './score/score.component';
+import { scoreComponent } from './scoreList/score/score.component';
 import { scoreListComponent } from './scoreList/scoreList.component';
 import { timerComponent } from './timer/timer.component';
 
